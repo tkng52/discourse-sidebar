@@ -8,6 +8,10 @@
   </div>
 </div>
 
+<div class="sidebar">
+  {{plugin-outlet "discovery-below"}}
+</div>
+
 <div class="container list-container {{if siteSettings.sidebar_enable "has-sidebar"}}">
   <div class="row">
     <div class="full-width">
@@ -26,8 +30,4 @@
       </div>
     </div>
   </div>
-</div>
-
-<div class="sidebar">
-  {{plugin-outlet "discovery-below"}}
 </div>
