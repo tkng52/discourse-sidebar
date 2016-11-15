@@ -1,0 +1,38 @@
+html:not(.mobile-view) {
+
+  /***** Expand main view to whole width *****/
+  .wrap {
+    max-width:none;
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+
+  /***** Padding for discovery page bottom *****/
+  .bottom-content{
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  /***** Shift header logo to right *****/
+  .d-header .title{
+    padding-left: 4em;
+  }
+
+  /***** remove gap top of banner *****/
+  #main-outlet{
+    padding-top: 12px;
+  }
+
+  /***** Padding for topic page bottom *****/
+  .topic-bottom-content{
+    padding-left: 8em;
+    padding-right: 4em;
+    // left: 50%;
+  }
+  /***** Padding for admin page bottom *****/
+  .full-width{
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 2em;
+  }
+
+}

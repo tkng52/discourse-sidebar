@@ -5,3 +5,7 @@
 # url: https://github.com/pmusaraj/discourse-home-sidebar
 
 register_asset "stylesheets/sidebar.scss"
+register_asset "stylesheets/banner.scss"
+register_asset "stylesheets/material-design.scss"
+register_asset "stylesheets/miscellaneous.scss"
+
