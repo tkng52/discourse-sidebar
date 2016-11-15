@@ -23,12 +23,12 @@ html:not(.mobile-view) {
   }
   .has-sidebar + .sidebar {
     width: 30%;
-    float: right;
+    float: left;
     min-height: 100px;
   }
 
   .list-container.has-sidebar {
-    width: 65%;
+    width: 70%;
     float: left;
   }
   .sidebar-category-posts {
