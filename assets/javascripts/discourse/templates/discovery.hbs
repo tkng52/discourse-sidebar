@@ -8,25 +8,27 @@
   </div>
 </div>
 
-<div class="sidebar">
-  {{plugin-outlet "discovery-below"}}
-</div>
+<div class="bottom-content">
+  <div class="sidebar">
+    {{plugin-outlet "discovery-below"}}
+  </div>
 
-<div class="container list-container {{if siteSettings.sidebar_enable "has-sidebar"}}">
-  <div class="row">
-    <div class="full-width">
-      {{conditional-loading-spinner condition=loading}}
+  <div class="container list-container {{if siteSettings.sidebar_enable "has-sidebar"}}">
+    <div class="row">
+      <div class="full-width">
+        {{conditional-loading-spinner condition=loading}}
 
-      <div id="header-list-area">
-        {{outlet "header-list-container"}}
+        <div id="header-list-area">
+          {{outlet "header-list-container"}}
+        </div>
       </div>
     </div>
-  </div>
-  <div class="row {{if loading "hidden"}}">
-    <div class="full-width">
-      <div id="list-area">
-        {{plugin-outlet "discovery-list-container-top"}}
-        {{outlet "list-container"}}
+    <div class="row {{if loading "hidden"}}">
+      <div class="full-width">
+        <div id="list-area">
+          {{plugin-outlet "discovery-list-container-top"}}
+          {{outlet "list-container"}}
+        </div>
       </div>
     </div>
   </div>
