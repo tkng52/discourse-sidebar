@@ -12,6 +12,11 @@ html:not(.mobile-view) {
     padding-left: 4em;
     padding-right: 4em;
   }
+  /***** Padding for search page *****/
+  .search-container{
+    padding-left: 4em;
+    padding-right: 4em;
+  }
   /***** Shift header logo to right *****/
   .d-header .title{
     padding-left: 4em;
@@ -32,6 +37,35 @@ html:not(.mobile-view) {
   .full-width{
     padding-left: 4em;
     padding-right: 4em;
+  }
+
+  /****  Middle Search Box *****/
+  .new-search-box{
+    text-align: center;
+    padding-left: 275px;
+    margin-top: -35px;
+  }
+  input#search-term{
+    width: 550px;
+    display: inline-block;
+    text-align: left
+  }
+
+  /****  Shift magnifying glass search icon left *****/
+  .panel-body-contents > a {
+    margin-left: -30px;
+  }
+
+  /***** Icons (top right) hidden *****/
+  .fa-search{
+    display:none;
+  }
+  .fa-bars{
+    display:none;
+  }
+
+  .alert.alert-info.alert-too-few-topics{
+    display:none;
   }
 
 }
