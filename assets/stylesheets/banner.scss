@@ -42,7 +42,7 @@ html:not(.mobile-view) {
   /****  Middle Search Box *****/
   .new-search-box{
     text-align: center;
-    padding-left: 275px;
+    padding-left: 125px;
     margin-top: -35px;
   }
   input#search-term{
@@ -83,6 +83,12 @@ html:not(.mobile-view) {
 
   /***** Admin alert banner *****/
   .alert.alert-info.alert-too-few-topics{
+    display: none;
+  }
+  .alert.alert-info.alert-bootstrap-mode{
+    display: none;
+  }
+  .alert.alert-info{
     display: none;
   }
 
