@@ -57,15 +57,43 @@ html:not(.mobile-view) {
   }
 
   /***** Icons (top right) hidden *****/
-  .fa-search{
-    //display:none;
-  }
-  .fa-bars{
-    display:none;
+  li.header-dropdown-toggle{
+    //disply: none;
+    visibility: hidden;
   }
 
+  //i.fa.fa-search{
+  //  disply: none;
+  //  visibility: hidden;
+  //}
+  //
+  //a#search-button{
+  //  disply: none;
+  //  visibility: hidden;
+  //}
+  //
+  //li.header-dropdown-toggle > i.fa.fa-bars{
+  //  display: none;
+  //  //visibility: hidden;
+  //}
+  //li.header-dropdown-toggle > img.avatar{
+  //  display: none;
+  //  //visibility: hidden;
+  //}
+
+  /***** Admin alert banner *****/
   .alert.alert-info.alert-too-few-topics{
-    display:none;
+    display: none;
+  }
+
+  /***** Sign up button top right *****/
+  button.widget-button.btn-primary.btn-small.sign-up-button{
+    display: none;
+  }
+
+  /***** Log in button top right *****/
+  button.widget-button.btn-primary.btn-small.login-button{
+    margin-right: -40px;
   }
 
 }
