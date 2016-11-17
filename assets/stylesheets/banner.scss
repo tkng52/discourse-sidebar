@@ -17,10 +17,6 @@ html:not(.mobile-view) {
     padding-left: 4em;
     padding-right: 4em;
   }
-  /***** Shift header logo to right *****/
-  .d-header .title{
-    padding-left: 4em;
-  }
 
   /***** remove gap top of banner *****/
   #main-outlet{
@@ -31,8 +27,10 @@ html:not(.mobile-view) {
   .topic-bottom-content{
     padding-left: 8em;
     padding-right: 4em;
-    // left: 50%;
+    margin: auto;
+    width: 70%;
   }
+
   /***** Padding for admin page bottom *****/
   .full-width{
     padding-left: 4em;
@@ -42,13 +40,14 @@ html:not(.mobile-view) {
   /****  Middle Search Box *****/
   .new-search-box{
     text-align: center;
-    padding-left: 125px;
+    padding-left: 250px;
     margin-top: -35px;
   }
   input#search-term{
-    width: 550px;
+    width: 650px;
     display: inline-block;
-    text-align: left
+    text-align: left;
+    height: 30px;
   }
 
   /****  Shift magnifying glass search icon left *****/
@@ -102,4 +101,21 @@ html:not(.mobile-view) {
     margin-right: -40px;
   }
 
+  /***** Header small logo on the left *****/
+  img#site-logo{
+    padding-top: 12px;
+    width: 175px;
+    padding-left: 4em;
+  }
+  ///***** Shift header logo to right *****/
+  //.d-header .title{
+  //  padding-left: 4em;
+  //}
+
 }
+
+///***** Padding for topic page bottom *****/
+//.topic-bottom-content{
+//  margin: auto;
+//  width: 70%;
+//}

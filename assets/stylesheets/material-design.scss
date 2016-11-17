@@ -149,15 +149,18 @@ button#login-link, button#new-account-link{
   color: $tertiary;
   font-size: 17px;
   white-space: nowrap;
-  text-indent: 4.05px;
-  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.14),0 4px 8px rgba(0,0,0,0.28);
-  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.14),0 4px 8px rgba(0,0,0,0.28);
-  box-shadow: 0 0 4px rgba(0,0,0,0.14),0 4px 8px rgba(0,0,0,0.28);
+  text-indent: 3.75px;
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.14),4px 4px 8px rgba(0,0,0,0.28);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.14),4px 4px 8px rgba(0,0,0,0.28);
+  box-shadow: 0 0 4px rgba(0,0,0,0.14),4px 4px 8px rgba(0,0,0,0.28);
   overflow: hidden;
   width: 33px;
   height: 33px;
   -webkit-transition: right .5s, bottom .5s, border-radius .5s, text-indent .2s, visibility 1s, width .2s ease, height .5s ease .4s, color .5s, background-color 2s, -webkit-transform .5s;
   transition: right .5s, bottom .5s, border-radius .5s, text-indent .2s, visibility 1s, width .2s ease, height .5s ease .4s, color .5s, background-color 2s, transform .5s;
+}
+.btn .fa{
+  margin-right: 15px;
 }
 
 #create-topic.btn-default .fa-plus {
