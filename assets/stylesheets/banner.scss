@@ -60,6 +60,10 @@ html:not(.mobile-view) {
     //disply: none;
     visibility: hidden;
   }
+  /***** User icon visible *****/
+  li#current-user{
+    visibility: visible;
+  }
 
   //i.fa.fa-search{
   //  disply: none;
