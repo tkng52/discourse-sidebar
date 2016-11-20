@@ -48,6 +48,9 @@ html:not(.mobile-view) {
     display: inline-block;
     text-align: left;
     height: 30px;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.14),4px 4px 8px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0,0.14),4px 4px 8px rgba(0,0,0,0.28);
+    box-shadow: 0 0 4px rgba(0,0,0,0.14),4px 4px 8px rgba(0,0,0,0.28);
   }
 
   /****  Shift magnifying glass search icon left *****/
@@ -123,3 +126,12 @@ html:not(.mobile-view) {
 //  margin: auto;
 //  width: 70%;
 //}
+
+header.d-header.clearfix{
+  border-bottom: solid 5px #07B35C;
+}
+
+/***** New Topic Composer View *****/
+#reply-control{
+  background-color: #3F4F5B;
+}

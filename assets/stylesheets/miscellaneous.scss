@@ -61,6 +61,7 @@ span#top-navbar-links > a {
     z-index: 1040; /*stays on top of other header*/
     float:left;
     position:relative;
+    display: none;
   }
 }
 
@@ -111,6 +112,9 @@ span#top-navbar-links > a {
   }
   .extra-info-wrapper {
     display: block;
+  }
+  div#top-navbar{
+    diaplay: none;
   }
 }
 
