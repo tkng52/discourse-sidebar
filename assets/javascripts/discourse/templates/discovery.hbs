@@ -1,8 +1,10 @@
 <div class="container">
   {{discourse-banner user=currentUser banner=site.banner}}
     <div class="panel-body-contents clearfix new-search-box">
-        <input id="search-term" type="text" value placeholder="search topics, posts, users, or categories">
-        <a href="/search?q=test&expanded=true"><i class="fa fa-search icon-search icon-2x"></i></a>
+        {{mount-widget widget="search-menu2"}}
+        <!--<input id="search-term" type="text" value placeholder="search topics, posts, users, or categories">-->
+        <!--<a href="/search?q=test&expanded=true"><i class="fa fa-search icon-search icon-2x"></i></a>-->
+
         <!--<div class="search-context">-->
             <!--<a class="widget-link show-help" href="/search?expanded=true" title="options"></a>-->
         <!--</div>-->
