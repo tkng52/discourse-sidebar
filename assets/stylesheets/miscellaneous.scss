@@ -318,7 +318,7 @@ nav.post-controls .highlight-action {
 html:not(.mobile-view) {
 
   //New Search Bar
-  .menu-panel {
+  .search-menu > .menu-panel {
     position: relative;
     box-shadow: none;
     border: none;
@@ -328,14 +328,11 @@ html:not(.mobile-view) {
     width: 700px;
     margin-top: -75px;
     padding-left: 15%;
+    z-index: 1;
   }
   .panel-body {
     height: 100%;
   }
-  //.panel-body-contents{
-  //  padding-left: 35%;
-  //  margin-top: -100px;
-  //}
 
   .panel-body-contents.clearfix {
     position: relative;
