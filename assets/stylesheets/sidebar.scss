@@ -16,6 +16,9 @@ html:not(.mobile-view) {
     float: right;
     visibility: hidden;
   }
+  button.edit-category {
+    visibility: visible;
+  }
   .sidebar-items{
     width: 25%;
     float: left;
